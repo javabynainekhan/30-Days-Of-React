@@ -195,14 +195,14 @@ To render a JSX element to HTML document, we should first create an index HTML. 
   </head>
 
   <body>
-    <div class="root"></div>
+    <div id="root"></div>
 
     <script></script>
   </body>
 </html>
 ```
 
-As you can see from the above index.html, we have one div with a class root and script. The root _div_ is the gateway to connect all react components to the index.html. In the script tag we will write our JavaScript, but the script _type_ will be _babel_. Babel will _transpile_ the react JSX to pure JavaScript on the browser. Let us add babel to the script. Inside the babel, we can write any pure JavaScript, JSX and in general any React code.
+As you can see from the above index.html, we have one div with a id root and script. The root _div_ is the gateway to connect all react components to the index.html. In the script tag we will write our JavaScript, but the script _type_ will be _babel_. Babel will _transpile_ the react JSX to pure JavaScript on the browser. Let us add babel to the script. Inside the babel, we can write any pure JavaScript, JSX and in general any React code.
 
 ```html
 <!DOCTYPE html>
